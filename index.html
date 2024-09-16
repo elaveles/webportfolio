@@ -12,17 +12,20 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Mulish&family=VT323&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#landing" id="logo">ELA.DEV</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -40,26 +43,28 @@
     <main>
         <section id="landing" class="container-fluid py-5">
             <div class="row">
-                <div id="landing-img" class="col-md-6 text-center">
-                    <img class="img-fluid" src="./images/lofi-girl.jpg" alt="Landing Image">
+                <div id="landing-img" class="col-12 col-md-6 text-center">
+                    <img class="img-fluid" src="./images/lofi-girl.jpg">
                 </div>
 
-                <div id="landing-text" class="col-md-6 d-flex flex-column justify-content-center">
-                    <h1>Angela Velesrubio</h1>
-                    <h3 class="typing-text"><span>Full Stack Web Developer</span></h3>
+                <div id="landing-text" class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <h1 class="display-4 mb-3">Ela Velesrubio</h1>
+                    <h3 class="display-4 mb-3 typing-text"><span>Full-Stack Web Developer</span></h3>
                 </div>
             </div>
         </section>
 
         <section id="projects" class="container py-5">
-            <h1 class="text-center mb-4">Projects</h1>
+            <h2 class="text-center mb-4">Projects</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card bg-dark">
-                        <img src="./images/ecommerce.webp" class="card-img-top">
+                        <img src="./images/ecommerce.webp" class="card-img">
                         <div class="card-body">
-                            <h5 class="card-title">E-commerce</h5>
-                            <p class="card-text">This is an example of an E-commerce app.</p>
+                            <h4 class="card-title">E-commerce</h4>
+                            <p class="card-text">A website that allows people to buy and sell physical goods, services,
+                                and digital products over the internet rather than at a brick-and-mortar location.
+                            </p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last Updated: January 2024</small>
@@ -69,10 +74,12 @@
 
                 <div class="col-md-4 mb-4">
                     <div class="card bg-dark">
-                        <img src="./images/blog.webp" class="card-img-top">
+                        <img src="./images/blog.webp" class="card-img">
                         <div class="card-body">
-                            <h5 class="card-title">Blog</h5>
-                            <p class="card-text">This is an example of a Blog.</p>
+                            <h4 class="card-title">Blog</h4>
+                            <p class="card-text">Blogs are a type of regularly updated websites that provide insight
+                                into a certain topic. The word blog is a combined version of the words “web” and “log.”
+                            </p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last Updated: February 2024</small>
@@ -82,10 +89,12 @@
 
                 <div class="col-md-4 mb-4">
                     <div class="card bg-dark">
-                        <img src="./images/booking.avif" class="card-img-top">
+                        <img src="./images/booking.png" class="card-img">
                         <div class="card-body">
-                            <h5 class="card-title">Online Booking System</h5>
-                            <p class="card-text">This is an example of an Online Booking app.</p>
+                            <h4 class="card-title">Online Booking System</h4>
+                            <p class="card-text">Easily book, change or cancel bookings via the app. Access all the
+                                upcoming bookings, older bookings, company information and more. Creates the best
+                                booking experience for the customers.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last Updated: March 2024</small>
@@ -96,54 +105,49 @@
         </section>
 
         <section id="tools" class="container py-5 text-center">
-            <h2 class="text-center mb-4 text-light">Tools</h2>
+            <h2 class="text-center mb-4">Tools</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Front End</h5>
-                            <div class="tools-images">
-                                <img src="./images/html.png" class="tools-img">
-                                <img src="./images/css.png" class="tools-img">
-                                <img src="./images/javascript.png" class="tools-img">
-                                <img src="./images/bootstrap.jpeg" class="tools-img">
-                            </div>
+                    <div class="text-light p-3">
+                        <h5 class="text-center mb-3">Front End</h5>
+                        <div class="tools-images">
+                            <img src="./images/html.png" class="tools-img">
+                            <img src="./images/css.png" class="tools-img">
+                            <img src="./images/javascript.png" class="tools-img">
+                            <img src="./images/bootstrap.png" class="tools-img">
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="col-md-4 mb-4">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">MERN</h5>
-                            <div class="tools-images">
-                                <img src="./images/mongodb.png" class="tools-img">
-                                <img src="./images/expressjs.png" class="tools-img">
-                                <img src="./images/react.webp" class="tools-img">
-                                <img src="./images/nodejs.png" class="tools-img">
-                            </div>
+                    <div class="text-light p-3">
+                        <h5 class="text-center mb-3">MERN</h5>
+                        <div class="tools-images">
+                            <img src="./images/mongodb.png" class="tools-img">
+                            <img src="./images/express.webp" class="tools-img">
+                            <img src="./images/react.webp" class="tools-img">
+                            <img src="./images/nodejs.png" class="tools-img">
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="col-md-4 mb-4">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Other Tools</h5>
-                            <div class="tools-images">
-                                <img src="./images/git.png" class="tools-img">
-                                <img src="./images/postman.png" class="tools-img">
-                                <img src="./images/sublime.webp" class="tools-img">
-                            </div>
+                    <div class="text-light p-3">
+                        <h5 class="text-center mb-3">Other Tools</h5>
+                        <div class="tools-images">
+                            <img src="./images/git.png" class="tools-img" alt="Git">
+                            <img src="./images/postman.png" class="tools-img" alt="Postman">
+                            <img src="./images/sublime.webp" class="tools-img" alt="Sublime Text">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+
         <section id="contact" class="text-center py-5">
-            <h2>Contacts</h2>
-            <div class="contact-imgs">
+            <h2 class="mb-4"> Contacts</h2>
+            <div class="contact-imgs p-3">
                 <a href="https://www.linkedin.com/in/ela-velesrubio-170391191/" target="_blank">
                     <img src="./images/linkedin.png" class="contact-img">
                 </a>
@@ -154,34 +158,50 @@
                     <img src="./images/gitlab.webp" class="contact-img">
                 </a>
                 <a href="https://github.com/elaveles" target="_blank">
-                    <img src="./images/github.png" class="contact-img">
+                    <img src="./images/github.webp" class="contact-img">
                 </a>
             </div>
         </section>
-        
+
     </main>
 
     <footer class="bg-dark text-light py-4">
         <div class="container">
-            <form class="message-form">
-                <h2 class="text-center mb-4">Message Me</h2>
-                <div class="mb-3">
-                    <label for="full_name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="name" required>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="google-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323370.1866074438!2d-122.3400408!3d37.3833004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb622f39b76b7%3A0x7d20eae91c83d637!2sSilicon%20Valley%2C%20California%2C%20USA!5e0!3m2!1sen!2sus!4v1632937942871!5m2!1sen!2sus"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="email" required>
+
+                <div class="col-md-6">
+                    <h2 class="text-center ps-5 pe-5">Message Me</h2>
+                    <form class="message-form">
+                        <div class="mb-3">
+                            <label for="full_name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-secondary">Send Message</button>
-            </form>
+            </div>
         </div>
+
         <div class="text-center mt-4">
-            <small>&copy; Ela Velesrubio | All Rights Reserved</small>
+            &copy; Ela Velesrubio | All Rights Reserved
         </div>
     </footer>
 
@@ -190,5 +210,6 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    </body>
+</body>
+
 </html>
