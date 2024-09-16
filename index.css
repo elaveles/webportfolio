@@ -15,6 +15,10 @@ body {
     padding-top: 55px;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: transparent;
     padding: 1rem 5%;
@@ -107,21 +111,24 @@ span {
 }
 
 #landing-text h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     line-height: 1.3;
+    overflow: hidden;
 }
 
 #landing-text h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 500;
+    word-wrap: break-word;
 }
 
 #landing-img img {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     border-radius: 50%;
+    height: auto;
 }
 
 .contact-imgs {
